@@ -1,0 +1,81 @@
+Aulas de Programação em Javascript
+
+1º O que é logica de programação?
+- É uma sequência de passos lógicos para executar em uma determinada máquina.
+
+2º Inputs e Outputs 
+- Inputs são entradas de dados, Outputs são saídas de dados.
+
+Exemplos de Outputs Javascript
+Ctrl ; - Realizar um comentário
+Alert ("mensagem a ser mostrada ao início do servidor");
+Console.log("mensagem a ser lida na parte inspecionar no html");
+Document.write("Escreva algo para ser mostrado na tela");
+
+Exemplos de Inputs para Javascript
+Prompt("Caixa de mensagem para o usuário digitar);
+
+3º Variáveis e Constantes
+Variáveis são espaços na mémoria, com um nome, ou um tipo, para ser qualquer coisa, normalmente as Variáveis
+em Javascript são genericas.
+
+var - Variáveis
+var variavel - igual a texto, array, funções, verdadeiro ou falso.
+
+Constante, é um valor constante.
+
+Const - função para ultilizar constante
++ "<br>" - espaços entre linhas
+
+4º Exemplos
+= - significa atribuição.
++ - junção de dois textos concatenar
+parseInt("Ele lê o texto e passa para números inteiros");
+parsefload("Ele lê o texto e passa para números decimais ou quebrados");
+
+5º Condicionais 
+Valor condicionais, como verdadeiro ou falso
+verdade - true
+falso - false
+
+if(condicao){ Se for true, estará aqui
+
+}else{ Se for false estará aqui
+    
+}
+
+6º Array e Vetores 
+
+Váriaveis que tem mais de uma informação para armazenar - Array ou Vetor
+Ex: var Fruteira = ["Banana", "Maçã", "Pera"];
+
+Objetos serve para armazenar várias informações, podendo ter propriedades, métodos e atributos.
+Ex: var Pessoa = {nome: "Maria", idade: "18", profissão: "programadora"};
+
+7º Loopings
+Looping ou laço de repetição, é  ultilizado para interar sobre algo que está fazendo, para tomar uma ação.
+
+while - Enquanto algo for verdade ele vai continuar executando.
+for - A partir de certo ponto ele vai incrementar tomando alguma ação 
+forin - Ele vai integrar em cima de um array ou uma função e devolver um índice
+forof - Ele também vai integrar mas devolvendo um objeto.
+
+Ex : for
+ for (var index = 0; index <= multiplicador; index++){
+    document.write(número + "X" + index + "=" + (número * index) + "<br>");
+    
+}
+
+Função - é um método para realizar o que pode isolar responsabilidades e funções.
+
+Ex: 
+function CalcularTaboada(número,multiplicador) {
+    for (var index = 0; index <= multiplicador; index++){
+        document.write(número + "X" + index + "=" + (número * index) + "<br>");
+}
+    
+}
+
+Gostaria de agradecer o professor Weberson Rodrigues da Udemy pelo conteúdo e explicação de forma simples e prática. Muito Obrigada!!
+
+
